@@ -1,1 +1,11 @@
-<p>post-create works!</p>
+
+<!-- one way binding 
+     <textarea rows="6" [value]="newPost" #postInput></textarea>
+<hr>
+<button (click)="onAddPost(postInput)">Save post</button>
+<p>{{newPost}}</p> -->
+
+ <textarea rows="6" [(ngModel)]="enteredValue"></textarea>
+<hr>
+<button (click)="onAddPost()">Save post</button>
+<p>{{newPost}}</p>
