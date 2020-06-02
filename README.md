@@ -1,2 +1,2 @@
 # meanAngular
-Front_end development with Angulat
+Front_end development with Angular
