@@ -6,13 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post-create.component.css']
 })
 export class PostCreateComponent implements OnInit {
+  
+  enteredValue ='';
+  newPost ='NoContent';
 
   constructor() { }
 
   ngOnInit() {
   }
   onAddPost(){
-    alert('posts added successfully');
+   
+    this.newPost =this.enteredValue;
   }
 
 }
